@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Itim&display=swap" rel="stylesheet">
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <h1 id="title">Tic Tac Toe</h1>
+        <button id="restart_button" onclick="reset()">
+            <img src="tic_tac_toe/resources/sprites/clockwise-rotation.svg">
+        </button>
+
+        <div id="cell_container">
+            <button cell_index="0" class="cell" onclick="cell_clicked(0)"></button>
+            <button cell_index="1" class="cell" onclick="cell_clicked(1)"></button>
+            <button cell_index="2" class="cell" onclick="cell_clicked(2)"></button>
+            <button cell_index="3" class="cell" onclick="cell_clicked(3)"></button>
+            <button cell_index="4" class="cell" onclick="cell_clicked(4)"></button>
+            <button cell_index="5" class="cell" onclick="cell_clicked(5)"></button>
+            <button cell_index="6" class="cell" onclick="cell_clicked(6)"></button>
+            <button cell_index="7" class="cell" onclick="cell_clicked(7)"></button>
+            <button cell_index="8" class="cell" onclick="cell_clicked(8)"></button>
+        </div>
+
+        <div id="scores">
+            <h3 id="player_score">0</h3>
+            <h3 id="computer_score">0</h3>
+        </div>
+
+        <script src="tic_tac_toe/script.js"></script>
+        <link rel="stylesheet" href="tic_tac_toe/styles.css">
+    </body>
+</html>

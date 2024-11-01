@@ -1,0 +1,67 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(80, 80, 80), rgb(40, 40, 40));
+    width: 100vw;
+    height: 100vh;    
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    font-size: 9vh;
+    font-family: "Itim", sans-serif;
+    text-align: center;
+}
+
+.cell {
+    width: 9.5vh;
+    height: 9.5vh;
+    border: 1.15vh solid whitesmoke;
+    border-radius: 4vh;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    color: white;
+    font-family: "Itim", sans-serif;
+    font-size: 6vh;
+}
+
+#cell_container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+    width: 35vh;
+    height: 35vh;
+}
+
+#restart_button {
+    width: 12vh;
+    height: 12vh;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    top: 60vh;
+    left: 5vh;
+}
+
+h3 {
+    color: white;
+    font-family: "Imit", sans-serif;
+    font-size: 6vh;
+}
+
+#scores {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: auto;
+    column-gap: 37vh;
+    width: 50vh;
+}
+
+#player_score {
+    color: rgb(255, 96, 68);
+}
+
+#computer_score {
+    color: rgb(50, 111, 255);
+}
