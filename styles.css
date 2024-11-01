@@ -10,5 +10,49 @@ body {
 
 #title {
     color: white;
-    
+    font-family: "Itim", sans-serif;
+    font-size: 12vh;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    height: 14vh;
+}
+
+#apps {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    position: relative;
+    border: solid;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 22vh;
+    padding-bottom: 10vh;
+}
+
+.button_container {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    height: 18vh;
+    width: 14vh;
+    text-align: center;
+    color: white;
+    font-family: "Itim", sans-serif;
+    font-size: 3.5vh; 
+}
+
+.app_button {
+    width: 14vh;
+    height: 14vh;
+    background-color: rgba(255, 255, 255, 0);
+    border: white solid;
+    border-radius: 7vh;
+    border-width: 1vh;
+    margin: 2vh;
+    cursor: pointer;
+}
+
+.app_button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
