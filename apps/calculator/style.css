@@ -4,11 +4,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(0, 0%, 25%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(80, 80, 80), rgb(40, 40, 40));  
 }
 
 #calculator {
-    font-family: Arial, sans-serif;
+    font-family: "Itim", sans-serif;
     background-color: hsl(0, 0%, 10%);
     border-radius: 30px;
     max-width: 500px;
@@ -20,6 +22,7 @@ body {
     padding: 20px;
     font-size: 5rem;
     text-align: left;
+    font-family: "Itim", sans-serif;
     border: none;
     background-color: hsl(0, 0%, 20%);
     color: white;
@@ -41,6 +44,7 @@ button {
     color: white;
     font-size: 3rem;
     font-weight: bold;
+    font-family: "Itim", sans-serif;
     cursor: pointer;
 }
 
