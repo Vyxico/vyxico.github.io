@@ -8,9 +8,6 @@
     </head>
     <body>
         <h1 id="title">Tic Tac Toe</h1>
-        <button id="restart_button" onclick="reset()">
-            <img src="tic_tac_toe/resources/sprites/clockwise-rotation.svg">
-        </button>
 
         <div id="cell_container">
             <button cell_index="0" class="cell" onclick="cell_clicked(0)"></button>
@@ -29,7 +26,14 @@
             <h3 id="computer_score">0</h3>
         </div>
 
-        <script src="tic_tac_toe/script.js"></script>
-        <link rel="stylesheet" href="tic_tac_toe/styles.css">
+        <button id="home_button" onclick="location.href='../../home.html'">
+            <img src="../../resources/sprites/home.svg">
+        </button>
+        <button id="restart_button" onclick="reset()">
+            <img src="../../resources/sprites/clockwise-rotation.svg">
+        </button>
+
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
     </body>
 </html>

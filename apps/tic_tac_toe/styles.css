@@ -33,6 +33,16 @@ body {
     height: 35vh;
 }
 
+#home_button {
+    width: 12vh;
+    height: 12vh;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    top: 8.5vh;
+}
+
 #restart_button {
     width: 12vh;
     height: 12vh;
@@ -40,8 +50,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
     position: relative;
-    top: 60vh;
-    left: 5vh;
+    top: 9vh;
 }
 
 h3 {
