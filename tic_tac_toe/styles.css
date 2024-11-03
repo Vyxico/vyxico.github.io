@@ -1,7 +1,7 @@
 body {
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background: linear-gradient(rgb(80, 80, 80), rgb(40, 40, 40));
+    background: linear-gradient(rgb(87, 140, 255), rgb(34, 70, 147));
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -19,11 +19,19 @@ body {
     height: 9.5vh;
     border: 1.15vh solid whitesmoke;
     border-radius: 4vh;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
     color: white;
     font-family: "Itim", sans-serif;
     font-size: 6vh;
+}
+
+.cell:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cell:active {
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 #cell_container {
@@ -34,15 +42,24 @@ body {
     height: 35vh;
 }
 
-#restart_button {
+#restart_icon {
+    position: relative  ;
     width: 12vh;
     height: 12vh;
+    right: 2.8vh;
+    bottom: 2.5vh;
+}
+
+#restart_button {
+    width: 8vh;
+    height: 8vh;
     border: none;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
     position: relative;
     top: 8.5vh;
-    left: 1vh;
+    left: 5.5vh;
+    border-radius: 6vh;
 }
 
 h3 {
