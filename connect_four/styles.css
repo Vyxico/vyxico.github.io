@@ -21,6 +21,9 @@ body {
     display: grid;
     grid-template-rows: repeat(6, auto);
     height: 70vh;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
     justify-items: center;
     cursor: pointer;
 }
