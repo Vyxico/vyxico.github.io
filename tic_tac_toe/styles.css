@@ -40,6 +40,7 @@ body {
     margin: auto;
     width: 35vh;
     height: 35vh;
+    justify-items: center;
 }
 
 #restart_icon {
@@ -74,6 +75,7 @@ h3 {
     margin: auto;
     column-gap: 37vh;
     width: 50vh;
+    justify-content: center;
 }
 
 #player_score {

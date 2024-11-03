@@ -6,3 +6,33 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+#cell_container {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: auto;
+    width: 90vh;
+    background-color: rgba(16, 47, 150, 0.5);
+    border-radius: 5vh;
+    justify-items: center;
+}
+
+.cell_column {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    height: 70vh;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.cell {
+    width: 7.3vh;
+    height: 7.3vh;
+    border-radius: 4vh;
+    border: none;
+    margin-top: 1.67vh;
+    background-color: rgb(87, 140, 255);
+    border: 0.7vh solid;
+    border-color: rgb(117, 161, 255);
+    cursor: pointer;
+}
